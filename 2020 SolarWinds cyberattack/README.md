@@ -17,30 +17,30 @@ thus compromising those who used the user's systems.
 
 ### Categorisation via the STRIDE model
 
-####Spoofing:
+**Spoofing**:
 This was one of the main reasons this attack was able to go on for so long. Due to the hackers installing
 malicious code into the orion system they were able to create a backdoor. Nobelium were then able to utilise this by
 gaining access to the organisations' systems and managed to impersonate users on these systems.
 
-####Tampering:
+**Tampering**:
 Although the reason for this attack remains unkown it is EXTREMELY likely that database integrity was
 compromised by this attack.
 
-####Repudiation:
+**Repudiation**:
 It is evident that Nobelium was able to impersonate users within the orion's systems. This is evidence that they were
 presumably able to mimic and/or deny transactions within systems, making them hidden.
 
-####Information disclosure:
+**Information disclosure**:
 Due to the large amount of time that the SolarWinds attack went uncovered, it is thought that thousands of customers
 from thousands of organisations had there data stolen. The fact this went on for so long means that the attackers would
 have been able to get far more data than if they were detected immediately and therefore for each customer there was
 most likely months worth of data stolen.
 
-####Denial of service:
+**Denial of service**:
 Due to the nature of this attack being to remain hidden and avoid suspicion, there is no evidence or reason to think
 the attackers were planning to deny service as this would alert SolarWinds to the attack almost immediately.
 
-####Elavation of privillege:
+**Elavation of privillege**:
 Because of Nobelium's ability to impersonate users, they were able to act as admins to systems without ever revealling
 themselves
 
