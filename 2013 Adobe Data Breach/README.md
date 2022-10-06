@@ -1,1 +1,35 @@
-# Reservation for Adobe Data breach in 2013.
+## Who was attacked and when
+
+Adobe is a world-famous company producing several graphics, publishing, and printing applications. Even though Adobe is notorious for its products, it still had one of the most significant data breaches of the 21st century, impacting at least 38 million people worldwide. 
+In January 2013, Adobe patched its web applications development tool ColdFusion, even though it took about two weeks to release a patch after informing users about the potential threat. (It is still unknown if it had to do anything with the breach from Adobe servers). The attack on the Adobe servers happened in mid-August, while the company noticed the breach only on 17th September and informed their customers about a potential threat more than two weeks later. As of October 2022, the exact vulnerability hackers used is still unknown. Before the official press release of Adobe's CSO Brad Arkin about the breach (Arkin, 2013), Brian Krebs, American journalist and investigator, informed Adobe of the fact that there was a dump with usernames, passwords, and credit card data of their services. This included source codes for their applications lying on a server where an unknown group of hackers stored their prey. KrebsOnSecurity also discovered that the hackers who earlier hacked into National White Collar Crime Centre, also known as NW3C, train state and local law enforcement to fight cybercrime. The same hackers' group used ColdFusion CVE-2013-0632 vulnerability, which Adobe patched, but NW3C did not patch their systems in time. We can assume that hackers somehow used ColdFusion vulnerability to breach Adobe servers. 
+
+## The negative impact of the attack
+
+Even though the breach was unnoticed for about a month, the attackers managed to download the source code for popular Adobe applications like Acrobat, Photoshop, BlueFusion and others. The potential outcome could be potential users installing in some way infected applications. Moreover, Adobe first stated that about 2.9 million encrypted passwords and credit card details were leaked. However, in a month, it turned out that these numbers could be up to twenty times higher. The tip of the iceberg in that leak is that all passwords were encrypted using the same key and used a semantically unsecure ECB cryptography method. To be precise, many passwords contained hints. While passwords were encrypted, they were not salted and did not have any nonce. This meant that the same passwords had the same encrypted forms. Even without deep analysis, by finding the identical hashes, it was possible to find users who used the same password and, if at least one of them left a "hint" for their password, allowed to guess passwords for all accounts. In this situation, it would be beneficial to use password salting to create unique passwords, as in this case, simple cryptanalysis could have been used to guess the most popular passwords. A solution making it harder to analyse passwords would be to atleast add salt to each password (Ducklin, 2013). 
+
+## A categorisation in the STRIDE model
+
+Even though the attackers' vulnerability is still unknown, the consequences have many threats.
+For instance, leaked passwords could be bruteforced and decrypted, creating a spoofing issue. The data could be used for authorisation by third parties in Adobe services and other companies' accounts. Moreover, information was disclosed to third parties as a number of these passwords and encrypted credit card numbers appeared in the hands of third parties. 
+
+## Academic Importance
+
+Even though the Adobe data breach was one of the biggest in cyberattacks history, we can still learn many things from it. For instance, Business School student Sarah DesJardins mentioned Adobe 2013 breach in a different perspective in their dissertation (Desjardins, 2014). By analysing how this breach and other similar cyberattacks affected customers, employees, and the company's name, it is evident that cyberattacks can be very harmful from all viewpoints. Customers lose their information, and potential criminals could use their credit card details to buy expensive items. Their passwords could have been used on multiple websites. A breach like this allowed the author to show the importance of cybersecurity and how it can affect businesses, however, from cybersecurity point of view, Adobe has very much unsaid about how this breach could have happened.
+
+
+## What measures have been put in place as a result of the attack.
+
+After the incident, Adobe has taken a different approach to security. During one of the interviews, the CSO of Adobe, Brad Arkin, commented that the idea of keeping product engineering separate from IT security could not hold and improved security privately. The minimum they could have done is change the encryption method for passwords from ECB to a more secure one. 
+As for communication with customers, Adobe has done pretty much to save their name. They reset all affected customers' passwords, so the leaked ones would not work on the Adobe products. This breach was so significant that other tech giants like Facebook had to inform their customers to change passwords if they used the same one for Adobe services. Moreover, Adobe privately informed customers whose credit card details could be leaked for them to take action.
+
+## References
+
+1. P. Ducklin, Anatomy of a password disaster – Adobe’s giant-sized cryptographic blunder. Naked Security (2013), (available at https://nakedsecurity.sophos.com/2013/11/04/anatomy-of-a-password-disaster-adobes-giant-sized-cryptographic-blunder/).
+2. B. Krebs, Adobe To Announce Source Code, Customer Data Breach – Krebs on Security. Krebsonsecurity.com (2013), (available at https://krebsonsecurity.com/2013/10/adobe-to-announce-source-code-customer-data-breach/).
+3. M. Mimoso, Adobe Breached, Acrobat and ColdFusion Code Stolen Along with 2.9M Customer Records. Threatpost.com (2013), (available at https://threatpost.com/adobe-breached-acrobat-and-coldfusion-code-stolen-along-with-2-9m-customer-records/102522/).
+4. B. Arkin, Important Customer Security Announcement. Adobe Blog (2013), (available at https://blog.adobe.com/en/publish/2013/10/03/important-customer-security-announcement).
+5. A. Hern, Did your Adobe password leak? Now you and 150m others can check. the Guardian (2013), (available at https://www.theguardian.com/technology/2013/nov/07/adobe-password-leak-can-check).
+6. T. Bell, Adobe’s CSO talks security, the 2013 breach, and how he sets priorities. CSO Online (2018), (available at https://www.csoonline.com/article/3268035/adobe-s-cso-talks-security-the-2013-breach-and-how-he-sets-priorities.html#:~:text=It%20was%20one%20of%20the,from%2038%20million%20Adobe%20users).
+7. S. Desjardins, thesis, University at Albany, State University of New York (2014).
+8. B. Krebson, Data Broker Hackers Also Compromised NW3C – Krebs on Security. Krebsonsecurity.com (2013), (available at https://krebsonsecurity.com/2013/10/data-broker-hackers-also-compromised-nw3c/).
+
