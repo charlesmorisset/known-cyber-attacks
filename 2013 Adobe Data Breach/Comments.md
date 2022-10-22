@@ -7,3 +7,4 @@ good to have a reflection on the possible vulnerability, it would be better to k
 rather than what was enabled by the attack. 
 * Very nice discussion about what was done after
 * Excellent usage of references. 
+* Very interesting reflection on the academic importance! 
