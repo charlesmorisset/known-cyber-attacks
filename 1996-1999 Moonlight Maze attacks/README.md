@@ -1,7 +1,7 @@
 # Introduction
 
 Moonlight Maze was a cyber-espionage campaign that started in 1996, with the aim of stealing sensitive information from Government, Military, and Academic organisations in the United States and United Kingdom.
-[8]
+[8] Each attack would typically leverage publicly available exploits as well as heavily modified variants of publicly available malware.
 
 Targets of Moonlight Maze include:
 - NASA
