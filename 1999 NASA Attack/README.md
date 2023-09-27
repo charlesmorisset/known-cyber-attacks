@@ -49,3 +49,8 @@ Cohen, G. (2021). Florida teen hacks the Department of Defense and NASA. Industr
 Empist. (2021, October 15). Cybersecurity Scary Stories: Infiltrating NASA. Retrieved from Empist: https://empist.com/cybersecurity-scary-stories-infiltrating-nasa/
 
 Rohit Sharma, D. M. (2017). Cyber Attacks That Shook the World. IJSRD - International Journal for Scientific Research and Development, 2.
+
+## Credit
+
+* Lizzie Hamer
+* Anthony Clermont
