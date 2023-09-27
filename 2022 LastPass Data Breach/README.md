@@ -39,9 +39,11 @@ The data taken includes (but is not limited to):<sup>[5]</sup>
 	+ Including billing address, names and ip address
 	+ Also including Information about Vault encryption configurations
 	
-LastPass operated with a breach-assumption policy<sup>[6]</sup>, meaning that all vault data is secure under the event of a breach. The vault is secured via 256 bit AES encryption using a hashed version of the master password as a key<sup>[7]</sup> and therefore the vault is only susceptible to a brute force attack. So long as a user uses a secure master password, their vault data should be safe.
+LastPass operated with a breach-assumption policy<sup>[6]</sup>, meaning that all vault data is secure under the event of a breach. The vault is secured via 256 bit AES encryption using a hashed version of the master password as a key<sup>[7]</sup> and therefore the vault is only susceptible to a brute force attack. So long as a user uses a secure master password, and keeps their password secret, their vault data should be safe.
 
-LastPass will have taken a substantial reputation hit, especially considering this is one of two data breaches that took place, so close together.
+However, much of the other data extracted is still valuable for a malicious party
+
+The key impact for LastPass will be the substantial reputation hit that they have taken, a password manager such as LastPass, that stores data on the cloud is dependent on customer trust, especially considering this is one of two data breaches that took place, so close together.
 See [this](https://www.wired.com/story/lastpass-breach-vaults-password-managers/) article from WIRED, titled "It's Time to Ditch This Password Manager" (sorry about the paywall)
 
 
