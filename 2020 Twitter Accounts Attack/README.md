@@ -30,6 +30,9 @@ Threatening to leak private DM's of compromised accounts.
 ## Financial Implications
 Lost of people lost money.
 
+## CVE?
+Could not find one as the main vulnerability was humans! (Social Engineering)
+
 ## References
 (No date) The 2020 twitter hack – so many lessons to be learned. Available at: https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1089&amp;context=jcerp (Accessed: 02 October 2023). 
 
@@ -37,5 +40,4 @@ Lost of people lost money.
 
 Thompson, N. (2020) How twitter survived its biggest hack-and plans to stop the next one, Wired. Available at: https://www.wired.com/story/inside-twitter-hack-election-plan/ (Accessed: 30 September 2023). 
 
-
-
+Witman, P.D. and Mackelprang, S. (2022) The 2020 twitter hack -- so many lessons to be learned., Journal of Cybersecurity Education, Research and Practice. Available at: https://eric.ed.gov/?id=EJ1332789 (Accessed: 02 October 2023). 
