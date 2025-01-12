@@ -1,6 +1,6 @@
 # Known Cyber Attacks
 
-This repository contains the description of known cyber attacks. Contributions are welcome from all students registered in the CSC3632 module for the academic year 2022-23 and from previous contributors. 
+This repository contains the description of known cyber attacks. Contributions are welcome from all students from Newcastle and Durham. 
 
 To add the description of an attack, follow the [standard instructions to contribute to a project](https://gist.github.com/MarcDiethelm/7303312): 
 - create a new folder with the relevant attack name
